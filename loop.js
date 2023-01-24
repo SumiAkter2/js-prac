@@ -23,16 +23,27 @@ for (var i = 0; i < cars.length; i++) {
   // console.log(element);
 }
 for (var n = 30; n < 87; n++) {
-  if (element == 44) {
+  if (n == 44) {
     break;
   }
   //   console.log(n);
 }
 var roll = [122, 345, 200, 150, 400, 530, 176, 198];
-for (var l = 0; l < roll.length; l++){
-    var rol = roll[l]
-    if (rol >= 200) {
-        continue
-    }
-    console.log(rol);
+for (var l = 0; l < roll.length; l++) {
+  var rol = roll[l];
+  if (rol >= 200) {
+    continue;
+  }
+  // console.log(rol);
+}
+const input = [5, 7, 9, 11, 15, 17];
+// output=13;
+for (let i = 0; i < input.length; i++) {
+  const element = input[i];
+  let next = element + 2;
+  if (input[i + 1] !== next) {
+    console.log(next);
+    break;
+  }
+  //    console.log(next);
 }
